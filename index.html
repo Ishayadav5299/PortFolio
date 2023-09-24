@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <!-- this is used to link the url of the icons used in this website  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- this is used to include typed js library used to include the animations  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   
+   
+</head>
+<body>
+
+    <!-- NAVBAR SECTION  -->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <!-- The "active" class is likely used to visually highlight the currently selected section in the navigation menu -->
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#contact" style="--i:5">Contact</a>
+
+        </nav>
+
+        <div class="toggle-container">
+            <label for="toggle-background">Toggle</label>
+            <input type="checkbox" id="toggle-background">
+        </div>
+    </header>
+
+    <!-- HOME SECTION  -->
+
+    <section class="home">
+    
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Isha Yadav</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a Software Engineer currently pursuing my Computer Science Engineering
+            <br> 3rd Year in Chitkara University. I wish to improve my coding skills and learn different languages.</p> 
+            
+
+            <div class="home-sci">
+                <a href="https://www.facebook.com/"   target="_blank" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/"   target="_blank"  style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://web.whatsapp.com/"   target="_blank"  style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/"  target="_blank"  style="--i:10"><i class='bx bxl-linkedin'></i></a>
+
+            </div>
+
+        </div>
+        <div class="image">
+            <img src="./images/image_2.png" alt="picture" height="350px" width="300px">
+        </div>
+       
+
+    </section>
+
+    <!-- ABOUT SECTION  -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/background_image.png"  alt="Picture">
+
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>I am Isha Yadav from Sri Muktsar Sahib, Punjab, currently pursuing my Btech in CSE from Chitkara University, Rajpura.
+                I am very passionate to learn new things. I am Enthusiastic software engineer with a keen eye for creating elegant and maintainable code.
+                 I have passion of continuous learning and improvement in myself. I wish to gain more and more knowledge in my field.
+            </p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+
+    </section>
+
+    <!-- SERVICES SECTION  -->
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span>
+                </h1>
+                <div class="services-list">
+                    <div>
+                     
+                        <h2>Web Applications</h2>
+                        <p>
+                            Web applications are dynamic software solutions accessible through web browsers, offering users a versatile and interactive online experience. 
+                            These applications encompass a wide range of functionalities, from e-commerce platforms and social networks to productivity tools and collaborative software.
+                            Their accessibility from various devices and operating systems makes web applications a convenient and powerful way to engage users on the internet.
+
+                        </p>
+                        <a href="#" class="read">Learn More</a>
+                        
+                    </div>
+
+                    <div>
+                       
+                        <h2>Graphic Designs</h2>
+                        <p>
+                            Graphic design is the art of visually communicating ideas, messages, and concepts through the arrangement of images, design elements. It encompasses a wide spectrum of mediums, including digital platforms, print materials etc. 
+                            Graphic designers skillfully blend creativity with strategic thinking to craft visuals that captivate audiences and convey information effectively.
+                            Graphic designers play a pivotal role in shaping the visual identity and appeal of brands, publications, and various forms of media.
+
+                        </p>
+                        <a href="#" class="read">Learn More</a>
+                        
+                    </div>
+
+                    <div>
+                       
+                        <h2>UI/UX Design</h2>
+                        <p>
+                            UI (User Interface) and UX (User Experience) design are integral aspects of creating exceptional digital experiences. 
+                            UI design focuses on crafting visually appealing and intuitive interfaces, ensuring users can easily interact with digital products.
+                            On the other hand, UX design centers around the overall user journey and satisfaction. UX designers work to understand user needs, behaviors, and pain points, then design seamless and user-friendly interactions
+
+                        </p>
+                        <a href="#" class="read">Learn More</a>
+                        
+                    </div>
+                  
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION  -->
+
+  
+    <h1 class="sub-title"> My <span>Skills</span></h1>
+
+    <section class="skills" id="skills">
+    
+    <div class="skills-container">
+        <div class="technical-skills">
+            <h2>Technical </h2>
+            <div class="skill">
+                <h4 class="skill-name">HTML</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4 class="skill-name">CSS</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4 class="skill-name">JavaScript</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4 class="skill-name">Java</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4 class="skill-name">CPP</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="skills-container">
+            <div class="professional-skills">
+                <h2>Professional </h2>
+                <div class="skill">
+                    <h4 class="skill-name">Communication</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <h4 class="skill-name">TeamWork</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4 class="skill-name">Confident</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- CONTACT SECTION  -->
+
+
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4>Let's work together</h4>
+                <p>I would love to work with this organization and help them with my coding skills. Let's Work together and 
+                    make this organisation reach topmost heights in the future.
+                </p>
+                <div class="contact-list">
+                    <li> <i class='bx bxs-send'></i>ishayadav77199@gmail.com</li>
+                    <li> <i class='bx bxs-phone'></i>6280358996</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://www.facebook.com/" target="_blank"> <i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://twitter.com/i/flow/login"  target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+         
+
+            <div class="contact-form">
+                   <form id="myForm">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <br>
+                    
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email"  placeholder="Enter Your Email" required>
+                    <br>
+
+                    <label for="subject"></label>
+                    <input type="subject" id="subject" name="subject"  placeholder="Enter Your Subject" required>
+                    <br>
+
+                    <textarea name="" id="textarea" cols="40" rows="10" placeholder="Enter Your Message " required></textarea>
+                    
+                    <button type="button" id="submitButton">Submit</button>
+                  </form>
+                  
+
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION  -->
+
+        <div class="last-text">
+            <p>Developed by Isha Yadav @ 2023</p>
+        </div>
+
+
+        <a href="#" class="top"> <i class='bx bx-up-arrow-alt'></i></a>
+        
+    <script src="main.js"></script>
+    
+</body>
+</html>
